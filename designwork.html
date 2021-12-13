@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+       <title>Mac's Portfolio</title>
+       <link rel="stylesheet" href="scss/style.css">
+    </head>
+    
+    <body>
+        
+        <header>
+        
+           <div class="socialHeader">
+                <span class="facebook"><a href="https://www.facebook.com/mac.hale.77" target="_blank"><img src="images/facebook.png"></a></span>
+                <span class="linkedIn"><a href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin.png"></a></span>
+           </div>
+          
+           <div class="logo">
+                <a href="index.html"><img class="logoImg" src="images/logo.png"></a>
+                <img class="shadowImg" src="images/shadow.png">
+           </div>
+          
+           <div class="menuL">
+                <ul>
+                    <a href="websites.html"><li id="websites">Websites</li></a>
+                    <a href="designwork.html"><li id="designWork">Design Work</li></a>
+                    <a href="aboutme.html"><li id="aboutMe">About Me</li></a>
+                    <a href="resume.html"><li id="resume">Resume</li></a>
+                </ul>
+            </div>
+            
+            <div class="headerHeight"></div>
+               
+        </header>
+        
+        <div class="websitePlan">
+            <p>Information Design Website Plan for a mock company<br>"Basements and Barbells"</p>
+            <div class="planBorder"></div>
+            <img src="images/websitePlan.png" width="620">
+            <h3><a href="https://www.slideshare.net/MacHale2/final-presentation-125770770" target="_blank">View slideshow here</a></h3>
+        </div>
+        
+        <ul class="mobileImgWrap">
+           <h2 class="galleryTitle">Design Work</h2>
+           
+            <li><img src="designWork/harleyAnatomy.png"></li>
+            <div id="harley">
+            <h3>"Harley Military Tribute"</h3>
+            <p><span>Description:</span> This is an educational piece focusing on the elements of typography. I learned how to utilize many tools in Photoshop to create different aspects of this piece such as the neon sign, the text on the ground, the "HD" paint on the wall, and the gradient effect.</p>
+            </div>
+            
+            <li><img src="designWork/Impressionistic.png"></li>
+            <div id="face">
+            <h3>"Face Paint"</h3>
+            <p><span>Description:</span> This is a Photoshop piece I created utilizing the eyedropper and brush tools to paint over an existing image. I learned how to properly utilize these tools by adjusting the brush hardness, size, and opacity to produce realistic effects of the image.</p>
+            </div>
+            
+            <li><img src="designWork/SnowboardAd.png"></li>
+            <div id="ski">
+            <h3>"Ski Trip"</h3>
+            <p><span>Description:</span> This is an advertisement mock-up for Burton Snowboard Company that I created in Photoshop. I strategically placed the Burton logo throughout the photo and a slogan at the bottom to achieve a compelling ad.</p>
+            </div>    
+                
+            <li><img src="designWork/tomatoThumb.png"></li>
+            <div id="tomato">
+            <h3>"Tomehto or Tomahto?"</h3>
+            <p><span>Description:</span> This piece was created from scratch in Illustrator predominantly focused on the pen, mesh, and eyedropper tools. It seems fairly basic yet it was challenging to produce the proper effects of the shape, lighting, and shading.</p>
+            </div>
+            
+            <li><img src="designWork/typeAsArt.png"></li>
+            <div id="sherlock">
+            <h3>"Sherlock and His Sidekick"</h3>
+            <p><span>Description:</span> This is a piece I created in Illustrator with a Sherlock Holmes theme. It consists of 16 seperate pieces assembled together to produce one large cohesive piece. The challenge was to create 16 small pieces strictly utilizing typography to create illustrations and following a specific theme. When it comes to my design work this was one of my favorite pieces to work on.</p>
+            </div>
+            
+            <li><img src="designWork/Vlogos2.png"></li>
+            <div id="vitality">
+            <h3>"Vitality"</h3>
+            <p><span>Description:</span> I created this logo while interning at Denver Print Company for one of their clients whom operated a small health and wellness company called Vitality.</p>
+            </div>
+        </ul>
+        
+        <div class="gallery">
+           <h2 class="galleryTitle">Design Gallery</h2>
+           
+           <!-- IMAGE MODAL -->
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+            </div>
+               
+            <div class="imgBox"><img id="myImg" src="designWork/harleyAnatomy.png"></div>
+            <div class="imgBoxText">
+                <h3>"Harley Military Tribute"</h3>
+                <p><span>Description:</span> This is an educational piece focusing on the elements of typography. I learned how to utilize many tools in Photoshop to create different aspects of this piece such as the neon sign, the text on the ground, the "HD" paint on the wall, and the gradient effect.</p>
+            </div>
+
+            <ul class="thumb">
+                <div class="row1">
+                    <li><a href="designWork/harleyAnatomy.png" target="imgBox" data-id="harley"><img src="designWork/harleyAnatomyThumb.png"></a></li>
+                    <li><a href="designWork/Impressionistic.png" target="imgBox" target="imgBoxText" data-id="face"><img src="designWork/ImpressionisticThumb.png"></a></li>
+                    <li><a href="designWork/SnowboardAd.png" target="imgBox" data-id="ski"><img src="designWork/SnowboardAdThumb.png"></a></li>
+                </div>
+                
+                <div class="row2">
+                    <li><a href="designWork/tomatoThumb.png" target="imgBox" data-id="tomato"><img src="designWork/tomatoThumb.png"></a></li>
+                    <li><a href="designWork/typeAsArt.png" target="imgBox" data-id="sherlock"><img src="designWork/typeAsArtThumb.png"></a></li>
+                    <li><a href="designWork/Vlogos2.png" target="imgBox" data-id="vitality"><img src="designWork/Vlogos2Thumb.png"></a></li>
+                </div>
+            </ul>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+        <script type="text/javascript">
+            
+            $(document).ready(function(){
+                $('.thumb a').click(function(e){
+                    e.preventDefault();
+                    $('.imgBox img').attr("src", $(this).attr("href"));
+                    
+                    $findId = "#"+$(this).data('id'); // get the ID from the data attribute + '#' to make it a selector name
+                    $imgInfo = $($findId).html(); // get the HTML found within the targeted 'div'
+                    $('.imgBoxText').empty().append($imgInfo); // empty the content of the .imgBoxText and replace with the information found from the Mobile 'h3' and 'p'
+                })
+            });
+            
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+              modal.style.display = "none";
+            }
+            
+        </script>
+        
+        <footer>
+            
+            <div class="divider">
+                <div class="dividerL">
+                    
+                </div>
+                <div class="dividerR">
+                    
+                </div>    
+            </div>
+            
+            <div class="footerDesktop">
+                <div class="footerLogo">
+                    <a href="index.html"><img src="images/logo.png"></a>
+
+                    <div class="social">
+                        <span class="facebook"><a href="https://www.facebook.com/mac.hale.77" target="_blank"><img src="images/facebook.png"></a></span>
+                        <span class="linkedIn"><a href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin.png"></a></span>
+                    </div>
+                </div>
+
+                <div class="footerContent">
+
+                    <div class="websitesQuick">
+                       <h3>Websites</h3>
+                        <ul>
+                            <li><a href="http://127.0.0.1:50617/home.html#" target="_blank">Home Lumber</a></li>
+                            <li><a href="http://127.0.0.1:50965/index.html" target="_blank">Calvin's Cafe</a></li>
+                            <li><a href="http://127.0.0.1:53913/index.html#overlay-nav-menu" target="_blank">Mission Impawssible</a></li>
+                            <li><a href="http://127.0.0.1:56580/index.html">Dog Country</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="earlierQuick">
+                        <h3>Earlier Sites</h3>
+                        <ul>
+                            <li><a href="http://127.0.0.1:60778/home.html" target="_blank">Mac Sports</a></li>
+                            <li><a href="http://127.0.0.1:56152/home.html" target="_blank">Building Blocks Academy</a></li>
+                            <li><a href="http://127.0.0.1:59585/home.html" target="_blank">Clothes n Stuff</a></li>
+                            <li><a href="http://127.0.0.1:60506/home.html" target="_blank">Graphic Design Times</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="rightQuick">
+                        <ul>
+                            <li class="designQuick"><a href="designwork.html">Design Work</a></li>
+                            <li class="aboutMeQuick"><a href="aboutme.html">About Me</a></li>
+                            <li class="resumeQuick"><a href="resume.html">Resume</a></li>
+                        </ul>
+                    </div> 
+                
+                    <div class="footerLogoMobile">
+                        <a href="index.html"><img src="images/logo.png"></a>
+
+                        <div class="social">
+                            <span class="facebook"><a href="https://www.facebook.com/mac.hale.77" target="_blank"><img src="images/facebook.png"></a></span>
+                            <span class="linkedIn"><a href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin.png"></a></span>
+                        </div>
+                    </div>  
+                </div>
+                </div>
+                        
+        </footer>
+        
+        
+        
+        <!--
+        img.onclick = function(){
+            var largeImg = document.createElement("img");
+            largeImg.setAttribute("src", this.getAttribute("src"));
+            
+            document.getElementById("innerview").appendChild(largeImg);
+            document.getElementById("view").setAttribute("class","show");
+        }
+        
+        document.getElementById("view").onclick = function(){
+            this.setAttribute("class","hide");
+            
+            var inner = document.getElementById("innerview");
+            
+            inner.removeChild(inner.firstElementChild);
+        }
+        -->
+        
+        
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1163 @@
+/* line 3, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+body {
+  margin: 0; }
+
+/* line 10, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+header .socialHeader {
+  display: block;
+  float: right;
+  padding: 20px; }
+  @media (max-width: 700px) {
+    /* line 10, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .socialHeader {
+      display: none; } }
+  /* line 19, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  header .socialHeader img {
+    width: 50px;
+    padding: 5px; }
+    /* line 23, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .socialHeader img:hover {
+      opacity: .8; }
+
+/* line 31, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+header .logo .logoImg {
+  position: absolute;
+  top: 40px;
+  width: 250px;
+  display: block;
+  left: 50%;
+  margin-left: -125px;
+  transition: all .35s ease-in-out; }
+  @media (max-width: 700px) {
+    /* line 31, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .logo .logoImg {
+      position: relative;
+      top: 0;
+      margin-top: 40px; } }
+  /* line 46, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  header .logo .logoImg:hover {
+    top: 60px; }
+    @media (max-width: 700px) {
+      /* line 46, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      header .logo .logoImg:hover {
+        top: 0; } }
+
+/* line 55, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+header .logo:hover .shadowImg {
+  display: block;
+  opacity: 1; }
+  @media (max-width: 700px) {
+    /* line 55, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .logo:hover .shadowImg {
+      display: none; } }
+
+/* line 66, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+header .logo .shadowImg {
+  display: none;
+  position: absolute;
+  top: 260px;
+  width: 190px;
+  left: 50%;
+  margin-left: -95px;
+  opacity: 0;
+  transition: all .35s ease-in-out; }
+
+/* line 80, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+header .menuL {
+  position: relative;
+  display: inline-block;
+  margin-left: -30px;
+  margin-top: 3px; }
+  @media (max-width: 700px) {
+    /* line 80, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL {
+      display: block;
+      width: 110%;
+      right: 2.5%;
+      text-align: center;
+      top: 40px; } }
+  /* line 94, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  header .menuL a {
+    text-decoration: none;
+    color: black; }
+    @media (max-width: 700px) {
+      /* line 94, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      header .menuL a {
+        margin-top: 20px; } }
+  /* line 103, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  header .menuL li {
+    list-style-type: none;
+    font-family: arial rounded mt bold; }
+    @media (max-width: 700px) {
+      /* line 103, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      header .menuL li {
+        display: block;
+        height: 30px; } }
+    /* line 112, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL li:hover {
+      color: #CB6125; }
+  /* line 117, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  header .menuL #websites {
+    margin-top: -8px;
+    padding: 0 0 0 173px; }
+    @media (max-width: 700px) {
+      /* line 117, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      header .menuL #websites {
+        padding: 11px 0 0 0;
+        margin-top: 0; } }
+    /* line 126, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL #websites:hover {
+      transition: all 0.25s ease-in-out;
+      padding-left: 199.75px; }
+      @media (max-width: 700px) {
+        /* line 126, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        header .menuL #websites:hover {
+          padding-left: 0;
+          transition: 0;
+          background-color: black; } }
+    /* line 138, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL #websites:after {
+      content: "";
+      width: 310px;
+      height: 40px;
+      border-bottom: 2px solid black;
+      border-right: 2px solid black;
+      transform: skewX(-30deg);
+      position: absolute;
+      top: -3px;
+      left: 0;
+      z-index: -1; }
+      @media (max-width: 700px) {
+        /* line 138, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        header .menuL #websites:after {
+          display: none; } }
+    /* line 155, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL #websites:hover:after {
+      background-color: #2E2E2E;
+      border-color: #2E2E2E;
+      transition: all 0.25s ease-in-out;
+      width: 336.75px; }
+  /* line 165, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  header .menuL #designWork {
+    padding: 22.5px 0px 0px 96px; }
+    @media (max-width: 700px) {
+      /* line 165, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      header .menuL #designWork {
+        padding: 11px 0 0 0; } }
+    /* line 172, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL #designWork:hover {
+      transition: all 0.25s ease-in-out;
+      padding-left: 122.75px; }
+      @media (max-width: 700px) {
+        /* line 172, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        header .menuL #designWork:hover {
+          padding-left: 0;
+          transition: 0;
+          background-color: black; } }
+    /* line 183, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL #designWork:after {
+      content: "";
+      width: 260px;
+      height: 40px;
+      border-bottom: 2px solid black;
+      border-right: 2px solid black;
+      transform: skewX(-30deg);
+      position: absolute;
+      top: 37px;
+      left: 0;
+      z-index: -1; }
+      @media (max-width: 700px) {
+        /* line 183, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        header .menuL #designWork:after {
+          display: none; } }
+    /* line 200, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL #designWork:hover:after {
+      background-color: #2E2E2E;
+      border-color: #2E2E2E;
+      transition: all 0.25s ease-in-out;
+      width: 286.5px; }
+  /* line 208, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  header .menuL #aboutMe {
+    padding: 22.5px 0px 0px 73px; }
+    @media (max-width: 700px) {
+      /* line 208, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      header .menuL #aboutMe {
+        padding: 11px 0 0 0; } }
+    /* line 215, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL #aboutMe:hover {
+      transition: all 0.25s ease-in-out;
+      padding-left: 99.75px; }
+      @media (max-width: 700px) {
+        /* line 215, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        header .menuL #aboutMe:hover {
+          padding-left: 0;
+          transition: 0;
+          background-color: black; } }
+    /* line 226, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL #aboutMe:after {
+      content: "";
+      width: 210px;
+      height: 40px;
+      border-bottom: 2px solid black;
+      border-right: 2px solid black;
+      transform: skewX(-30deg);
+      position: absolute;
+      top: 78px;
+      left: 0;
+      z-index: -1; }
+      @media (max-width: 700px) {
+        /* line 226, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        header .menuL #aboutMe:after {
+          display: none; } }
+    /* line 243, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL #aboutMe:hover:after {
+      background-color: #2E2E2E;
+      border-color: #2E2E2E;
+      transition: all 0.25s ease-in-out;
+      width: 236px; }
+  /* line 252, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  header .menuL #resume {
+    padding: 22.5px 0px 0px 30px; }
+    @media (max-width: 700px) {
+      /* line 252, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      header .menuL #resume {
+        padding: 11px 0 0 0; } }
+    /* line 259, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL #resume:hover {
+      transition: all 0.25s ease-in-out;
+      padding-left: 56.75px; }
+      @media (max-width: 700px) {
+        /* line 259, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        header .menuL #resume:hover {
+          padding-left: 0;
+          transition: 0;
+          background-color: black; } }
+    /* line 270, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL #resume:after {
+      content: "";
+      width: 160px;
+      height: 40px;
+      border-bottom: 2px solid black;
+      border-right: 2px solid black;
+      transform: skewX(-30deg);
+      position: absolute;
+      top: 119px;
+      left: 0;
+      z-index: -1; }
+      @media (max-width: 700px) {
+        /* line 270, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        header .menuL #resume:after {
+          display: none; } }
+    /* line 287, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .menuL #resume:hover:after {
+      background-color: #2E2E2E;
+      border-color: #2E2E2E;
+      transition: all 0.25s ease-in-out;
+      width: 186px; }
+
+/* line 296, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+header .headerHeight {
+  height: 250px; }
+  @media (max-width: 700px) {
+    /* line 296, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    header .headerHeight {
+      height: 100px; } }
+
+@media (max-width: 700px) {
+  /* line 310, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .websiteWrapper {
+    display: none; } }
+
+/* line 316, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+.websiteWrapper h2 {
+  text-align: center;
+  font-family: arial rounded mt bold;
+  color: #2E2E2E;
+  font-size: 23px;
+  border-bottom: 2px solid #CB6125;
+  width: 400px;
+  display: block;
+  margin: auto;
+  padding-bottom: 4px;
+  margin-bottom: 40px;
+  position: relative; }
+
+/* line 330, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+.websiteWrapper ul {
+  list-style-type: none;
+  display: block;
+  margin-bottom: 130px;
+  text-align: center;
+  padding-left: 0;
+  height: 250px;
+  position: relative; }
+  /* line 340, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .websiteWrapper ul .siteContainer {
+    position: relative;
+    width: 200px;
+    display: inline-block; }
+    @media only screen and (max-width: 420px) {
+      /* line 340, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      .websiteWrapper ul .siteContainer {
+        position: relative; } }
+    /* line 353, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .websiteWrapper ul .siteContainer:hover img {
+      opacity: 0.3; }
+    /* line 357, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .websiteWrapper ul .siteContainer:hover .middle {
+      opacity: 1;
+      z-index: -1; }
+    /* line 362, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .websiteWrapper ul .siteContainer .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center; }
+      /* line 373, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      .websiteWrapper ul .siteContainer .middle .siteDescription {
+        font-family: arial;
+        font-size: 20px;
+        font-weight: 600; }
+    /* line 380, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .websiteWrapper ul .siteContainer li {
+      display: inline-block;
+      padding: 15px;
+      vertical-align: middle;
+      position: relative; }
+      /* line 386, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      .websiteWrapper ul .siteContainer li:hover {
+        box-shadow: 0px 5px 25px; }
+      /* line 390, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      .websiteWrapper ul .siteContainer li img {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden; }
+      /* line 399, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      .websiteWrapper ul .siteContainer li .dogCountry {
+        text-decoration: none;
+        font-family: chalkduster;
+        font-size: 43px;
+        text-align: center;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden; }
+        /* line 411, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        .websiteWrapper ul .siteContainer li .dogCountry:hover {
+          opacity: .3; }
+
+/* line 422, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+.siteWrapperMobile {
+  display: none; }
+  @media (max-width: 700px) {
+    /* line 422, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .siteWrapperMobile {
+      display: block; }
+      /* line 428, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      .siteWrapperMobile h2 {
+        text-align: center;
+        font-family: arial rounded mt bold;
+        color: #2E2E2E;
+        font-size: 23px;
+        border-bottom: 2px solid #CB6125;
+        width: 250px;
+        display: block;
+        margin: auto;
+        padding-bottom: 4px;
+        margin-bottom: 40px;
+        position: relative; }
+      /* line 443, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      .siteWrapperMobile ul {
+        text-align: center;
+        margin-left: -40px;
+        margin-bottom: 50px;
+        margin-top: -20px; }
+        /* line 449, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        .siteWrapperMobile ul li {
+          list-style-type: none;
+          font-size: 20px;
+          font-family: arial;
+          line-height: 28px; }
+          /* line 455, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+          .siteWrapperMobile ul li a {
+            text-decoration: none;
+            color: black; }
+            /* line 459, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+            .siteWrapperMobile ul li a:hover {
+              color: #CB6125; } }
+
+/* line 474, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+.websitePlan p {
+  text-align: center;
+  font-size: 20px;
+  font-family: arial;
+  color: #2E2E2E;
+  margin-bottom: 5px;
+  line-height: 27px; }
+  @media (max-width: 700px) {
+    /* line 474, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .websitePlan p {
+      font-size: 17px;
+      line-height: 21px;
+      padding: 0 5px; } }
+
+/* line 489, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+.websitePlan .planBorder {
+  border-bottom: 2px solid #CB6125;
+  width: 500px;
+  margin: auto;
+  display: block; }
+  @media (max-width: 700px) {
+    /* line 489, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .websitePlan .planBorder {
+      width: 70%; } }
+
+/* line 502, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+.websitePlan img {
+  display: block;
+  margin: auto;
+  margin-top: 14px;
+  margin-bottom: -7px;
+  width: 600px; }
+  @media (max-width: 700px) {
+    /* line 502, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .websitePlan img {
+      width: 85%; } }
+
+/* line 514, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+.websitePlan h3 a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #2E2E2E;
+  font-family: arial rounded mt bold;
+  width: 200px;
+  margin: auto;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #ffffff00;
+  margin-left: 50%;
+  transform: translateX(-50%); }
+  /* line 528, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .websitePlan h3 a:after {
+    display: block;
+    content: '';
+    border-bottom: 2px solid #CB6125;
+    transform: scaleX(0);
+    transition: all .2s ease-in-out; }
+  /* line 536, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .websitePlan h3 a:hover {
+    color: #CB6125;
+    transition: all .2s ease-in-out; }
+  /* line 541, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .websitePlan h3 a:hover:after {
+    transform: scaleX(1); }
+
+/* line 547, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+.mobileImgWrap {
+  padding-left: 0; }
+  @media (min-width: 700px) {
+    /* line 547, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .mobileImgWrap {
+      display: none; } }
+  /* line 555, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .mobileImgWrap .galleryTitle {
+    display: block;
+    text-align: center;
+    font-family: arial;
+    font-weight: 300;
+    border-bottom: 2px solid #CB6125;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    margin-top: 70px; }
+  /* line 568, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .mobileImgWrap li {
+    list-style-type: none; }
+  /* line 572, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .mobileImgWrap img {
+    display: block;
+    width: 85%;
+    margin: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px; }
+  /* line 581, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .mobileImgWrap h3 {
+    font-family: arial rounded mt bold;
+    text-align: center;
+    color: #2E2E2E;
+    border-bottom: 1.5px solid #CB6125;
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-bottom: 7px; }
+  /* line 592, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .mobileImgWrap p {
+    display: block;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    font-family: arial;
+    padding-top: 10px; }
+    /* line 602, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .mobileImgWrap p span {
+      font-weight: 600;
+      color: #2E2E2E; }
+
+/* line 609, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+.gallery {
+  /* MODAL */
+  /* The Modal (background) */
+  /* Modal Content (image) */
+  /* Caption of Modal Image */
+  /* Add Animation */
+  /* The Close Button */
+  /* 100% Image Width on Smaller Screens */
+  /* MODAL END */ }
+  @media (max-width: 700px) {
+    /* line 609, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .gallery {
+      display: none; } }
+  /* line 614, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery .galleryTitle {
+    display: block;
+    text-align: center;
+    font-family: arial;
+    font-weight: 300;
+    border-bottom: 2px solid #CB6125;
+    width: 565px;
+    margin: auto;
+    margin-bottom: -38px;
+    padding-bottom: 5px;
+    margin-top: 70px; }
+  /* line 629, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s; }
+  /* line 635, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery #myImg:hover {
+    opacity: 0.9; }
+  /* line 638, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw;
+    /* Full width */
+    height: 100vh;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: black;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */ }
+  /* line 653, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery .modal-content {
+    margin: auto;
+    display: block;
+    height: 100vh; }
+  /* line 662, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px; }
+  /* line 674, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery .modal-content, .gallery #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s; }
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0); }
+  to {
+    -webkit-transform: scale(1); } }
+
+@keyframes zoom {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+  /* line 692, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s; }
+  /* line 702, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery .close:hover,
+  .gallery .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer; }
+  @media only screen and (max-width: 700px) {
+    /* line 711, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .gallery .modal-content {
+      width: 100%; } }
+  /* line 717, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery .imgBox {
+    margin: 50px auto 20px;
+    height: 500px;
+    text-align: center; }
+    /* line 723, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .gallery .imgBox .facePaint {
+      width: 400px; }
+    /* line 727, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .gallery .imgBox img {
+      height: 100%;
+      border: 4px solid white;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5); }
+  /* line 736, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery .imgBoxText h3 {
+    font-family: arial rounded mt bold;
+    text-align: center;
+    color: #2E2E2E;
+    border-bottom: 1.5px solid #CB6125;
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-bottom: 7px; }
+  /* line 747, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery .imgBoxText p {
+    display: block;
+    width: 720px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    font-family: arial;
+    padding-top: 10px; }
+    /* line 757, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .gallery .imgBoxText p span {
+      font-weight: 600;
+      color: #2E2E2E; }
+  /* line 764, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .gallery .thumb {
+    display: block;
+    padding-left: 0;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80px;
+    min-width: 923px; }
+    @media (max-width: 930px) {
+      /* line 764, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      .gallery .thumb {
+        display: inline; } }
+    /* line 776, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .gallery .thumb .row1, .gallery .thumb .row2 {
+      display: inline-block; }
+      @media (max-width: 930px) {
+        /* line 776, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        .gallery .thumb .row1, .gallery .thumb .row2 {
+          display: block; } }
+    /* line 784, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .gallery .thumb li {
+      list-style-type: none;
+      display: inline-block; }
+    /* line 790, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .gallery .thumb img {
+      display: block;
+      width: 130px;
+      margin: 0 5px;
+      border: 4px solid white;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5); }
+      /* line 797, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      .gallery .thumb img:hover {
+        opacity: .8; }
+      @media (max-width: 700px) {
+        /* line 790, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        .gallery .thumb img {
+          display: none; } }
+      @media (max-width: 930px) {
+        /* line 790, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        .gallery .thumb img {
+          margin: 5px; } }
+
+/* line 815, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+.aboutMeWrapper {
+  display: block;
+  margin: auto; }
+  /* line 819, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .aboutMeWrapper .topPhotos {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+    margin: auto;
+    padding-bottom: 40px; }
+    /* line 826, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .topPhotos li {
+      display: inline-block;
+      list-style-type: none;
+      border: 14px solid white;
+      border-bottom: 57px solid white;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+      margin: 5px; }
+    /* line 835, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .topPhotos .photo1 {
+      transform: rotate(-5deg);
+      z-index: -1;
+      position: relative; }
+    /* line 841, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .topPhotos .photo2 {
+      transform: rotate(8deg);
+      z-index: 1;
+      position: relative; }
+    /* line 847, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .topPhotos .photo3 {
+      transform: rotate(-18deg);
+      z-index: -1;
+      position: relative; }
+  /* line 854, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .aboutMeWrapper .bottomPhotos {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 45px;
+    margin-bottom: 60px; }
+    /* line 863, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .bottomPhotos li {
+      display: inline-block;
+      list-style-type: none;
+      border: 14px solid white;
+      border-bottom: 57px solid white;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+      margin: 5px; }
+    /* line 872, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .bottomPhotos .photo4 {
+      transform: rotate(15deg);
+      z-index: 1;
+      position: relative; }
+    /* line 878, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .bottomPhotos .photo5 {
+      transform: rotate(-12deg);
+      z-index: -1;
+      position: relative; }
+    /* line 884, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .bottomPhotos .photo6 {
+      transform: rotate(5deg);
+      z-index: 1;
+      position: relative; }
+  /* line 891, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .aboutMeWrapper .aboutMeText {
+    display: block;
+    width: 750px;
+    margin: auto;
+    font-family: arial;
+    color: #E2E2E2;
+    line-height: 21px;
+    padding: 20px 40px;
+    background-color: #2E2E2E;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    @media (max-width: 700px) {
+      /* line 891, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      .aboutMeWrapper .aboutMeText {
+        width: 300px; } }
+    /* line 908, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .aboutMeText .p1 {
+      margin-bottom: 0; }
+    /* line 912, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .aboutMeText .interestsBorder1 {
+      display: block;
+      border-top: 1.2px solid #CB6125;
+      padding-bottom: 10px;
+      width: 630px;
+      margin: auto; }
+      @media (max-width: 700px) {
+        /* line 912, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        .aboutMeWrapper .aboutMeText .interestsBorder1 {
+          width: 270px; } }
+    /* line 924, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .aboutMeText .interests {
+      text-align: center;
+      font-size: 20px;
+      font-family: arial rounded mt bold;
+      letter-spacing: 1px;
+      padding: 15px 0px;
+      margin-top: -10px;
+      margin-bottom: -10px; }
+      /* line 933, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      .aboutMeWrapper .aboutMeText .interests span {
+        font-family: arial;
+        font-size: 20px;
+        font-weight: 100; }
+        /* line 938, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        .aboutMeWrapper .aboutMeText .interests span .dot {
+          font-size: 25px;
+          color: #CB6125;
+          vertical-align: middle; }
+    /* line 946, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .aboutMeText .interestsBorder2 {
+      display: block;
+      border-bottom: 1.4px solid #CB6125;
+      padding-top: 10px;
+      margin: auto;
+      width: 630px; }
+      @media (max-width: 700px) {
+        /* line 946, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        .aboutMeWrapper .aboutMeText .interestsBorder2 {
+          width: 270px; } }
+    /* line 958, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    .aboutMeWrapper .aboutMeText .p2 {
+      margin-top: 0; }
+
+/* line 967, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+.resume img {
+  width: 80vw;
+  display: block;
+  margin: auto;
+  margin-bottom: 60px;
+  box-shadow: 0px 5px 25px; }
+
+/* line 978, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+.printResume a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #2E2E2E;
+  font-family: arial rounded mt bold;
+  width: 270px;
+  margin: auto;
+  border-bottom: 2px solid #ffffff00;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  margin-bottom: 50px; }
+  /* line 994, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .printResume a:after {
+    display: block;
+    content: '';
+    border-bottom: 2px solid #CB6125;
+    transform: scaleX(0);
+    transition: all .2s ease-in-out;
+    padding-bottom: 5px; }
+  /* line 1003, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .printResume a:hover {
+    color: #CB6125;
+    transition: all .2s ease-in-out; }
+  /* line 1009, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  .printResume a:hover:after {
+    transform: scaleX(1); }
+
+/* line 1018, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+footer {
+  display: block; }
+  /* line 1021, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  footer .divider {
+    display: block; }
+    @media (max-width: 930px) {
+      /* line 1021, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .divider {
+        margin-top: 80px; } }
+    /* line 1028, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    footer .divider .dividerL {
+      display: inline-block;
+      position: absolute;
+      border: 4px solid white;
+      border-left: none;
+      float: left;
+      width: 74%;
+      height: 19px;
+      transform: skewX(-30deg);
+      margin-top: 11px;
+      margin-left: -20px;
+      background-color: #CB6125;
+      z-index: 1; }
+    /* line 1043, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    footer .divider .dividerR {
+      display: inline-block;
+      border: 2px solid black;
+      border-right: none;
+      float: right;
+      width: 74%;
+      height: 15px;
+      transform: skewX(30deg);
+      background-color: #2E2E2E;
+      margin-right: -20px; }
+  @media (min-width: 700px) {
+    /* line 1056, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    footer .footerDesktop {
+      min-width: 790px;
+      display: block; } }
+  /* line 1063, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  footer .footerLogo {
+    display: inline-block;
+    margin-left: 26px;
+    margin-top: 50px;
+    float: left; }
+    @media (max-width: 700px) {
+      /* line 1063, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerLogo {
+        display: none; } }
+    /* line 1073, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    footer .footerLogo .social {
+      display: block;
+      text-align: center;
+      margin-top: 10px; }
+      /* line 1078, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerLogo .social .facebook img {
+        display: inline-block;
+        width: 45px;
+        margin-right: 15px; }
+      /* line 1084, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerLogo .social .linkedIn img {
+        display: inline-block;
+        width: 45px; }
+    /* line 1090, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    footer .footerLogo img {
+      width: 180px; }
+      /* line 1093, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerLogo img:hover {
+        opacity: .8; }
+  /* line 1099, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  footer .footerLogoMobile {
+    display: none; }
+    @media (max-width: 700px) {
+      /* line 1099, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerLogoMobile {
+        display: block; }
+        /* line 1105, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerLogoMobile img {
+          width: 150px; }
+        /* line 1111, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerLogoMobile .social img {
+          width: 35px;
+          padding: 5px; } }
+  /* line 1119, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+  footer .footerContent {
+    display: inline-block;
+    font-family: arial rounded mt bold;
+    float: right;
+    min-width: 70%;
+    margin-top: 40px;
+    margin-left: 20px; }
+    @media (max-width: 700px) {
+      /* line 1119, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent {
+        display: block;
+        float: none;
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 60px; } }
+    /* line 1136, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    footer .footerContent li {
+      list-style-type: none;
+      font-family: arial; }
+    /* line 1141, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    footer .footerContent .websitesQuick {
+      width: 200px;
+      text-align: left;
+      display: inline-block;
+      vertical-align: top; }
+      @media (max-width: 700px) {
+        /* line 1141, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerContent .websitesQuick {
+          display: block;
+          margin: auto;
+          text-align: center; } }
+      /* line 1154, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .websitesQuick h3 {
+        border-bottom: 1px solid black;
+        width: 79px;
+        padding-bottom: 2px;
+        font-size: 17px; }
+        @media (max-width: 700px) {
+          /* line 1154, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+          footer .footerContent .websitesQuick h3 {
+            display: block;
+            margin: auto;
+            width: 100%; } }
+      /* line 1167, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .websitesQuick ul {
+        margin-left: -40px; }
+      /* line 1171, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .websitesQuick a {
+        text-decoration: none;
+        color: #2E2E2E; }
+        /* line 1175, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerContent .websitesQuick a:hover {
+          color: #CB6125; }
+      /* line 1180, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .websitesQuick li {
+        line-height: 23px; }
+    /* line 1185, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    footer .footerContent .earlierQuick {
+      width: 200px;
+      text-align: left;
+      display: inline-block; }
+      @media (max-width: 700px) {
+        /* line 1185, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerContent .earlierQuick {
+          display: block;
+          margin: auto;
+          text-align: center;
+          margin-top: 40px; } }
+      /* line 1198, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .earlierQuick h3 {
+        border-bottom: 1px solid black;
+        width: 104px;
+        padding-bottom: 2px;
+        font-size: 17px; }
+        @media (max-width: 700px) {
+          /* line 1198, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+          footer .footerContent .earlierQuick h3 {
+            display: block;
+            margin: auto;
+            width: 100%; } }
+      /* line 1211, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .earlierQuick ul {
+        margin-left: -40px; }
+      /* line 1215, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .earlierQuick a {
+        text-decoration: none;
+        color: #2E2E2E; }
+        /* line 1219, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerContent .earlierQuick a:hover {
+          color: #CB6125; }
+      /* line 1224, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .earlierQuick li {
+        line-height: 23px; }
+    @media (max-width: 700px) {
+      /* line 1229, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .websitesQuickSitePageMobile {
+        display: none; } }
+    @media (max-width: 700px) {
+      /* line 1235, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .earlierQuickSitePageMobile {
+        display: none; } }
+    /* line 1242, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+    footer .footerContent .rightQuick {
+      display: inline-block;
+      vertical-align: top;
+      width: 142px; }
+      @media (max-width: 700px) {
+        /* line 1242, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerContent .rightQuick {
+          display: block;
+          margin: auto; }
+          /* line 1252, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+          footer .footerContent .rightQuick ul {
+            text-align: center;
+            width: 100px;
+            margin-left: -19px;
+            top: 30px;
+            margin-top: 40px; }
+            /* line 1259, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+            footer .footerContent .rightQuick ul li {
+              display: inline-block; } }
+      /* line 1266, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .rightQuick li {
+        border-bottom: 1px solid black;
+        padding-bottom: 1px;
+        margin-bottom: 20px;
+        font-family: arial rounded mt bold;
+        font-size: 17px; }
+        /* line 1273, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerContent .rightQuick li a {
+          text-decoration: none;
+          color: black; }
+          /* line 1277, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+          footer .footerContent .rightQuick li a:hover {
+            color: #CB6125;
+            transition: all .25s ease-in-out; }
+      /* line 1284, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .rightQuick .designQuick {
+        width: 109px; }
+        /* line 1287, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerContent .rightQuick .designQuick:after {
+          content: "";
+          transform: skewX(-30deg);
+          border-right: 0px solid black;
+          position: absolute;
+          height: 21px;
+          margin-left: -50px; }
+        /* line 1296, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerContent .rightQuick .designQuick:hover:after {
+          content: "";
+          transform: skewX(-30deg);
+          border-right: 1px solid black;
+          position: absolute;
+          height: 21px;
+          margin-left: 9px;
+          transition: all .25s ease-in-out; }
+        @media (max-width: 700px) {
+          /* line 1307, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+          footer .footerContent .rightQuick .designQuick:hover:after {
+            display: none; } }
+      /* line 1313, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .rightQuick .aboutMeQuick {
+        width: 80px; }
+        /* line 1316, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerContent .rightQuick .aboutMeQuick:after {
+          content: "";
+          transform: skewX(-30deg);
+          border-right: 0px solid black;
+          position: absolute;
+          height: 21px;
+          margin-left: -50px; }
+        /* line 1325, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerContent .rightQuick .aboutMeQuick:hover:after {
+          content: "";
+          transform: skewX(-30deg);
+          border-right: 1px solid black;
+          position: absolute;
+          height: 21px;
+          margin-left: 7px;
+          transition: all .25s ease-in-out; }
+        @media (max-width: 700px) {
+          /* line 1336, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+          footer .footerContent .rightQuick .aboutMeQuick:hover:after {
+            display: none; } }
+      /* line 1342, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+      footer .footerContent .rightQuick .resumeQuick {
+        width: 70px; }
+        /* line 1345, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerContent .rightQuick .resumeQuick:after {
+          content: "";
+          transform: skewX(-30deg);
+          border-right: 0px solid black;
+          position: absolute;
+          height: 21px;
+          margin-left: -50px; }
+        /* line 1354, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+        footer .footerContent .rightQuick .resumeQuick:hover:after {
+          content: "";
+          transform: skewX(-30deg);
+          border-right: 1px solid black;
+          position: absolute;
+          height: 21px;
+          margin-left: 8px;
+          transition: all .25s ease-in-out; }
+        @media (max-width: 700px) {
+          /* line 1365, /Volumes/MAC'S DISK/Portfolio1/Portfolio Site GoDaddy/scss/style.scss */
+          footer .footerContent .rightQuick .resumeQuick:hover:after {
+            display: none; } }
+
+/*# sourceMappingURL=style.css.map */
